@@ -463,33 +463,33 @@
 <li>
 <p>로그인</p>
 <p>라이선스 계약 이후 부여 받은 아이디와 비밀번호를 입력하여 등록된 설비에 대한 GuardiOne SUBSTATION v.1.0의 기능을 사용하실 수 있습니다. 계정 정보가 올바르게 입력된 경우 등록된 설비에 대한 설비현황 페이지를 확인 할 수 있습니다. 계정이 미등록된었거나 비밀번호가 틀린 경우 ‘비밀번호가 틀렸습니다.’ 라는 팝업이 발생합니다.</p>
-<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig1.png"></p>
+<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig1.png" height="300px" width="500px"></p>
 <center>Fig. 1 GuardiOne SUBSTATION v.1.0 로그인 절차</center><br></p>
 </li>
 <li>
 <p>로그아웃</p>
 <p>페이지 우측 상단의 로그아웃 버튼을 통해 아래와 같이 계정에 대한 로그아웃이 가능합니다.</p>
-<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig2.png"></p>
+<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig2.png" height="800px" width="500px"></p>
 <center>Fig. 2 GuardiOne SUBSTATION v.1.0 로그아웃 절차</center><br></p>
 </li>
 </ol>
 <hr />
 <h2 id="_2">설비현황</h2>
 <p>설비현황 페이지에서는 사용자에게 등록된 전체 설비에 대한 진단 현황 및 통계 자료가 제공됩니다. 변압기 설비현황 통계 블록에서는 사용자에게 등록된 전사 변압기의 설비등급 현황 및 부서별 변압기의 설비등급 현황을 확인할 수 있습니다.</p>
-<p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig3.png"></p>
+<p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig3.png" height="250px" width="500px"></p>
 
 <p><center>Fig. 3 설비 현황 페이지 접속 화면</center><br></p>
 <ol>
 <li>
 <p>전사 변압기 설비등급 현황</p>
 <p>전사에 등록된 변압기에 대해 각 건전성 상태별로 (정상, 관심, 주의, 심각, 위험 등급) 변압기가 어떻게 분포되어 있는지 각각 퍼센트(%) 및 대수를 통해 표현됩니다.</p>
-<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig4.png"></p>
+<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig4.png" height="200px" width="500px"></p>
 <center>Fig. 4 전사 변압기 설비등급 현황 차트</center><br></p>
 </li>
 <li>
 <p>부서 별 변압기 설비등급 현황</p>
 <p>전사에 등록된 변압기 중 각 부서별로 소분된 막대차트를 통해 건전성 상태에 따른 변압기의 분포를 확인할 수 있습니다. 이때 각 부서에 해당하는 막대차트 상에 마우스 포인터를 위치시키면 해당 부서에 등록된 변압기 에 대해 각 건전성 상태별로 (정상, 관심, 주의, 심각, 위험 등급) 변압기가 어떻게 분포되어 있는지 표현됩니다. 또한 차트 하단의 스크롤 영역을 조정하여 관찰하고자 하는 부서의 범위를 조정할 수 있습니다.</p>
-<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig5.png"></p>
+<p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig5.png" height="200px" width="500px"></p>
 <center>Fig. 5 부서별 변압기 설비등급 현황 차트, 막대차트 토글 시 상태별 변압기 분포 확인</center><br></p>
 </li>
 <li>
@@ -598,8 +598,9 @@
 <p>④   건전성지수(HI): : AI 기반 진단 알고리즘을 통해 계측된 데이터를 기반으로 진단된 설비의 상태를 수치화한 지수로 0~1로 표현되며 0에 가까울수록 변압기의 고장 위험 가능성이 높음</p>
 <p>⑤   결함유형: 변압기의 상태가 정상이 아닌 경우 해당 변압기의 예상 결함유형에 대해 표현하며 정상의 경우 ‘-‘으로 표시</p>
 <p>⑥   결함위치: 변압기의 상태가 정상이 아닌 경우 해당 변압기의 예상 결함위치에 대해 표현하며 정상의 경우 ‘-‘으로 표시</p>
-<p>세부 기능으로 다운로드와 보정/비보정 기능이 있습니다.
--   다운로드: 변압기 상태진단 이력테이블의 내용을 CSV 형태로 다운로드 받는 기능으로 아래의 순서와 같이 다운로드 클릭 시 해당 컴퓨터의 다운로드 폴더에 TableDataCSV.csv가 다운로드됨</p>
+<p>세부 기능으로 다운로드와 보정/비보정 기능이 있습니다.</p>
+<pre><code>다운로드: 변압기 상태진단 이력테이블의 내용을 CSV 형태로 다운로드 받는 기능으로 아래의 순서와 같이 다운로드 클릭 시 해당 컴퓨터의 다운로드 폴더에 TableDataCSV.csv가 다운로드됨
+</code></pre>
 <p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig16.png"></p>
 <center>Fig. 16 변압기 상태진단 이력 테이블 CSV 다운로드 절차</center><br></p>
 <ul>
@@ -608,8 +609,10 @@
 <p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig17.png"></p>
 <center>Fig. 17 보정 알고리즘 기능 사용법</center><br></p>
 <p>c. 절연유 가스농도 트렌드 차트</p>
-<p>해당 변압기의 계측일자별 6종 가스농도에 대한 트렌드를 차트로 표현하는 기능으로 세부기능에는 가스 트렌드 ON/OFF , 팝업, 보정/비보정 기능이 있습니다.
--   가스 트렌드 ON/OFF 기능: 특정 가스를 숨기거나 확인하고 싶은 경우 차트 하단의 범례의 가스를 클릭히여 ON/OFF 할 수 있는 기능</p>
+<p>해당 변압기의 계측일자별 6종 가스농도에 대한 트렌드를 차트로 표현하는 기능으로 세부기능에는 가스 트렌드 ON/OFF , 팝업, 보정/비보정 기능이 있습니다.</p>
+<ul>
+<li>가스 트렌드 ON/OFF 기능: 특정 가스를 숨기거나 확인하고 싶은 경우 차트 하단의 범례의 가스를 클릭히여 ON/OFF 할 수 있는 기능</li>
+</ul>
 <p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig18.png"></p>
 <center>Fig. 18 가스 트렌드 ON/OFF 기능 절차</center><br></p>
 <ul>
@@ -685,7 +688,7 @@
 <p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig30.png"></p>
 <center>Fig. 30 변압기 건전성 진단 평면 줌인아웃 기능 절차</center><br></p>
 <p>b. 변압기 상태진단 이력 테이블</p>
-<p>건전성 종합진단 탭의 변압기 상태진단 이력 테이블과 동일한 기능의 테이블입니다. 관련 설명은 본 매뉴얼의 15 페이지에서 확인하실 수 있습니다.</p>
+<p>건전성 종합진단 탭의 변압기 상태진단 이력 테이블과 동일한 기능의 테이블입니다. 관련 설명은 본 매뉴얼 상위의 건전성 종합 정보 - b. 변압기 상태진단 이력 테이블 페이지에서 확인하실 수 있습니다.</p>
 <p>c. 변압기 미래상태 조회</p>
 <p>마지막 계측 시점으로부터 향후 5년(60개월)에 대한 예측 상태등급과 건전성지수(HI)에 대해 조회하는 기능이며 아래와 같은 절차에 따라 확인이 가능합니다.</p>
 <p><p align="center"><img src="https://onepredict.github.io/Guardione_Substation_Manual/img/fig31.png"></p>
@@ -740,7 +743,7 @@
 <p>⑥   가압일: 설비 등록 당시 부여받은 설비의 제작년월</p>
 <p>⑦   용도: 설비 등록 당시 부여받은 설비의 용도</p>
 <p>c. 유사변압기 상태진단 이력 테이블</p>
-<p>유사변압기의 DGA 계측에 따른 가스값을 나타내고 이에 대한 진단 상태와 건전성지수, 결함유형, 결함위치를 테이블로 나타냅니다. 테이블의 컬럼 정보는 건전성 종합진단 탭의 변압기 상태진단 이력 테이블과 동일합니다. 관련 설명은 본 매뉴얼의 15 페이지에서 확인하실 수 있습니다.</p>
+<p>유사변압기의 DGA 계측에 따른 가스값을 나타내고 이에 대한 진단 상태와 건전성지수, 결함유형, 결함위치를 테이블로 나타냅니다. 테이블의 컬럼 정보는 건전성 종합진단 탭의 변압기 상태진단 이력 테이블과 동일합니다. 관련 설명은 본 매뉴얼 상위의 건전성 종합 정보 - b. 변압기 상태진단 이력 테이블 페이지에서 확인하실 수 있습니다.</p>
 <p>d. 유사변압기 가스농도 트렌드 차트</p>
 <p>유사 변압기의 계측일자별 6종 가스농도 변화율에 대한 트렌드를 차트로 표현하는 기능으로 세부기능에는 가스 트렌드 ON/OFF , 팝업 기능이 있습니다. 유사변압기와의 유사했던 구간은 하이라이트로 표시됩니다.</p>
 <ul>
